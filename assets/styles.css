@@ -206,7 +206,7 @@
   }
   .question_section h2 {
     margin-bottom: 5vh;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
   }
   .question_section h4{
@@ -221,7 +221,20 @@
   .question_section ol ul li {
     line-height: 25px;
   }
+  .year_section .grid_class{
+    font-weight: 100;
+  }
   
+  /* trainer section */
+  .year_section h4{
+    font-size: 30px;
+  }
+  .year_section h6{
+    font-size: 18px;
+  }
+  .year_section p{
+    font-weight: 100;
+  }
   .battle{
     text-align: center;
     padding:2vh 5vw;
@@ -249,7 +262,7 @@
   }
    .battle .flex_div .left p{
   margin-top: 2vh;
-  color: #7f8c8d;
+  color: #8a8a8a;
   }
   .battle .flex_div .right table td ,th,table{
    border:2px solid  #8a8a8a;
@@ -282,13 +295,14 @@
   .know_more{
     padding:8vh 10vw;
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
     background-color: #424242;
     color:#fff;
   }
   .know_more button{
     padding:10px 50px;
     margin-top: 30px;
+    background: transparent;
     font-size: large;
     background-color: #0000;
     border:3px solid #fff;
@@ -466,7 +480,7 @@
     align-items: center;
   }
   footer section h4{
-  color:#89898C;
+  color:#424242;
   }
   footer section a{
     color:white;
